@@ -1,0 +1,40 @@
+ls :
+to list all the files and directories 
+mkdir :
+this make directory command is to make a new directory
+cd :
+this change directory command takes to the home
+cd / :
+This command takes to the root directory
+pwd :
+this command prints the present working directory 
+ls -l :
+This command is to list all the files and directory
+ls -la :
+this command  shows all the hidden files along with exixting files and directory
+ls * :
+this command shows all the sub directories
+ls -lt :
+This command displays all the contents of files in detail according to time 
+ls -ltr :
+This command displays recursive time sequence of files and its contents
+ls -lh :
+This command displays the contents in human readable format it is especially for size in KB's and MB's
+ls -lhr :
+This command recursively displays the sizes of the contents
+ls -lhtr :
+This command recursively displays the contents with time in human readable along with details
+cd .. :
+This command takes one step back to the previous folder
+echo :
+this command used to store contents in a particular file
+grep :
+This command is used for searching files 
+cp :
+This command copies the contents from one file to another file
+head -10 <file name> :
+This commannd displays the first 10 lines 
+tail -10 <file name> :
+This command displays the last 10 lines
+chmod :
+This command is especially to access the file permission and to change access to mode files
