@@ -24,6 +24,8 @@ ls -lhr :
 This command recursively displays the sizes of the contents
 ls -lhtr :
 This command recursively displays the contents with time in human readable along with details
+ls -li :
+This command is to display the inode numbers of all the files and directories
 cd .. :
 This command takes one step back to the previous folder
 echo :
@@ -37,4 +39,16 @@ This commannd displays the first 10 lines
 tail -10 <file name> :
 This command displays the last 10 lines
 chmod :
-This command is especially to access the file permission and to change access to mode files
+This command is especially to access the file permission and to change access mode to files this can be used in multiple ways like for modifyin
+ln <file name> <new file name> :
+This command displays number of hardlinks it represents the number of times index number used for existing file as well as for new file 
+pipe | :
+This command is to print the output of first command as input of second command
+ls -l | head :
+This command displays first ten lines of contents
+ls -l | tail :
+This command displays last ten lines of contents
+echo :
+This command used for displaying lines of text which are passed as an arguments on the command line
+cat <file name> :
+This command used for displaying the text of a file
