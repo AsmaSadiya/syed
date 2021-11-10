@@ -1,19 +1,21 @@
-ls :
-to list all the files and directories 
+"" *COMMANDS OF LINUX AND THEIR UTILIZATION* ""
+
+pwd :
+This command displays the present working directory 
 mkdir :
-this make directory command is to make a new directory
+This make directory command is to make a new directory
 cd :
 this change directory command takes to the home
 cd / :
 This command takes to the root directory
-pwd :
-this command prints the present working directory 
+ls :
+To list all the files and directories 
 ls -l :
 This command is to list all the files and directory
 ls -la :
 this command  shows all the hidden files along with exixting files and directory
 ls * :
-this command shows all the sub directories
+This command shows all the sub directories
 ls -lt :
 This command displays all the contents of files in detail according to time 
 ls -ltr :
@@ -26,10 +28,12 @@ ls -lhtr :
 This command recursively displays the contents with time in human readable along with details
 ls -li :
 This command is to display the inode numbers of all the files and directories
+ls -l | head :
+This command displays first ten lines of contents
+ls -l | tail :
+This command displays last ten lines of contents
 cd .. :
 This command takes one step back to the previous folder
-echo :
-this command used to store contents in a particular file
 grep :
 This command is used for searching files 
 cp :
@@ -40,14 +44,14 @@ tail -10 <file name> :
 This command displays the last 10 lines
 chmod :
 This command is especially to access the file permission and to change access mode to files this can be used in multiple ways like for modifyin
+chgrp :
+This command displays the change in the name of group
+chown :
+This command used to modify the currrent owner to the new owner
 ln <file name> <new file name> :
 This command displays number of hardlinks it represents the number of times index number used for existing file as well as for new file 
 pipe | :
 This command is to print the output of first command as input of second command
-ls -l | head :
-This command displays first ten lines of contents
-ls -l | tail :
-This command displays last ten lines of contents
 echo :
 This command used for displaying lines of text which are passed as an arguments on the command line
 cat <file name> :
