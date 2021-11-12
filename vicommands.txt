@@ -1,0 +1,36 @@
+"VI EDITOR USE OF COMMANDS"
+vi <file name> :
+ It Creates a new file if it already does not exist otherwise opens an existing file.
+vi -R <filename> :
+ It opens an existing file in the read-only mode.
+view <filename> :
+ It opens an existing file in the read-only mode.
+ WORKING WITH VI SYNTAX :
+i :Inserts text before the current cursor location
+Esc :Terminate insert mode
+u :undo all the changes to the entire file
+dd : It delete the current line
+3dd :it delete current 3 lines
+D :it delete all the contents of line which is after the cursor
+C :it deletes the same contents of a line after the cursor
+dw :it deletes a word
+4dw :it deletes 4 words
+cw :it is to change word
+X :it delete character at the position of cursor
+r :it replace a character
+:w - it save the file but file will be still in open
+:q - it quit without saving 
+:wq - it saves the file and quit
+gg : it takes cursor to the first character of file
+I :Inserts text at the beginning of the current line
+a :Inserts text after the current cursor location
+A :Inserts text at the end of the current line
+o :Creates a new line for text entry below the cursor location
+O :Creates a new line for text entry above the cursor location
+shift + zz : it saves the file and quit
+Insert mode :
+  It is for inserting some particular contents into file it allows users to insert text without 
+  overwriting other text in order to enter a text we need to press i key
+command mode : 
+  It is the mode to be in when giving commands which will move the cursor ,delete text,copy and
+  paste save the file
