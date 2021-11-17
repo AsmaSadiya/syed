@@ -1,0 +1,147 @@
+1) "IF CONDITION" :
+#!/bin/sh
+
+age=20
+if [ $age -gt 18 ]
+then
+  echo "You are old enough to drive in most places."
+fi
+
+./syed.sh
+You are old enough to drive in most places.
+
+2) "IF ELSE CONDITION" :
+#!/bin/bash
+a=10
+b=10
+if [ $a != $b ]
+then
+echo "a is not equal to b"
+else
+echo "a is equal to b"
+fi
+
+./asma.sh
+a is equal to b
+
+3) " WHILE LOOP" :
+#!/bin/sh
+x=1
+while [ $x -le 10 ]
+ do
+echo "$x"
+((x++))
+done
+
+./sadiya.sh
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+4) #!/bin/bash
+echo "what is your name"
+read
+echo "where are you from"
+read
+
+$ ./shell.sh
+what is your name
+iam Asma Sadiya
+where are you from
+iam from kurnool
+
+5) "FOR LOOP" :
+#!/bin/bash
+for (( counter=10; counter>0; counter-- ))
+do
+echo -n "$counter "
+done
+printf "\n"
+
+./shahela.sh
+10 9 8 7 6 5 4 3 2 1 
+
+6)#!/bin/bash
+echo "Enter Your Name"
+read name
+echo "Welcome $name to LinuxHint":
+
+./print.sh
+Enter Your Name
+Syed Asma Sadiya
+Welcome Syed Asma Sadiya to LinuxHint:
+
+7) #!/bin/bash
+
+echo "Enter any number"
+read n
+
+if [[ ( $n -eq 15 || $n  -eq 45 ) ]]
+then
+echo "You won the game"
+else
+echo "You lost the game"
+fi
+
+./tab.sh
+Enter any number
+32
+You lost the game
+
+8)  #!/bin/bash
+
+echo "Enter your lucky number"
+read n
+
+if [ $n -eq 101 ];
+then
+echo "You got 1st prize"
+elif [ $n -eq 510 ];
+then
+echo "You got 2nd prize"
+elif [ $n -eq 999 ];
+then
+echo "You got 3rd prize"
+
+else
+echo "Sorry, try for the next time"
+fi
+
+./home.sh
+Enter your lucky number
+5
+Sorry, try for the next time
+
+9) #!/bin/bash
+
+string1="Linux"
+string2="Hint"
+echo "$string1$string2"
+string3=$string1+$string2
+string3+=" is a good tutorial blog site"
+echo $string3
+
+./string.sh
+LinuxHint
+Linux+Hint is a good tutorial blog site
+ 
+10) #!/bin/bash
+echo "Enter first number"
+read x
+echo "Enter second number"
+read y
+(( sum=x+y ))
+echo "The result of addition=$sum"
+
+./addnum.sh
+Enter first number
+23
+Enter second number
+34
+The result of addition=57
